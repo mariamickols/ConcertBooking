@@ -1,7 +1,8 @@
 function click1(param)   {
    console.log(param)
+   document.getElementById("sum").innerText = "Total: " + param*660 +" Kr";
 }
 
-function click2(){
-    console.log("no param")  
-}
+function setsum(param)   {
+    console.log(param)
+ }
