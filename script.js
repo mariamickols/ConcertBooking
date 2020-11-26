@@ -1,5 +1,5 @@
-function click1(seats)   {
-console.log(seats)
+function click1(param)   {
+   console.log(param)
 }
 
 function click2(){
