@@ -1,6 +1,8 @@
 function click1(param)   {
    console.log(param)
-   document.getElementById("sum").innerText = "Total: " + param*660 +" Kr ("+param+")";
+   let ticketPrice = parseInt(document.getElementById("price").innerHTML)
+   console.log(ticketPrice)
+   document.getElementById("sum").innerText = "Total: " + param*ticketPrice +" Kr ("+param+")";
 }
 
 function setsum(param)   {
